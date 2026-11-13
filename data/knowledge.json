@@ -1,0 +1,14 @@
+[
+  "A trace is one end-to-end request. It contains observations: spans, generations, tools, retrievers, agents, guardrails and events.",
+  "A generation is an observation for an LLM call. It stores the model, model parameters, input, output, token usage, cost and latency.",
+  "Sessions group many traces that share a session_id, for example every turn of one chat conversation.",
+  "Scores attach a value to a trace, observation, session or dataset run. Types are NUMERIC, BOOLEAN, CATEGORICAL and TEXT. Sources are API, ANNOTATION (humans in the UI) and EVAL (LLM-as-a-judge).",
+  "Prompt management stores versioned prompts. Labels such as production or staging point at one version, so you can roll back without a deploy.",
+  "The SDK caches fetched prompts in memory (cache_ttl_seconds) so prompt management adds no latency to normal requests.",
+  "Datasets hold inputs with optional expected outputs. An experiment runs your app over a dataset and scores each output, so you can compare prompts or models.",
+  "The Python SDK v3 and later is built on OpenTelemetry. Spans are batched and exported in a background thread, so short scripts must call flush() before exit.",
+  "Masking runs a function over every input, output and metadata value before it leaves your process, which is how you keep PII out of Langfuse.",
+  "sample_rate keeps only a fraction of traces, for example 0.1 keeps 10 percent, which controls cost at high volume.",
+  "Self-hosted Langfuse runs a web container and a worker container on top of Postgres, ClickHouse, Redis and S3-compatible blob storage such as MinIO.",
+  "Cost is computed from model definitions. Langfuse ships prices for popular models and you can add your own model with a match pattern and per-token prices."
+]

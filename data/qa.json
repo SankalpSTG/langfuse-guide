@@ -1,0 +1,10 @@
+[
+  {"input": "What is the capital of Japan?", "expected_output": "Tokyo"},
+  {"input": "What is the capital of Australia?", "expected_output": "Canberra"},
+  {"input": "How many sides does a hexagon have?", "expected_output": "6"},
+  {"input": "Which planet is known as the Red Planet?", "expected_output": "Mars"},
+  {"input": "What is 15 multiplied by 4?", "expected_output": "60"},
+  {"input": "Who wrote the play Romeo and Juliet?", "expected_output": "Shakespeare"},
+  {"input": "What gas do plants absorb from the air for photosynthesis?", "expected_output": "carbon dioxide"},
+  {"input": "What is the largest ocean on Earth?", "expected_output": "Pacific"}
+]
