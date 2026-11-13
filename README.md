@@ -1,4 +1,4 @@
-# langfuse-lab
+# langfuse-guide
 
 A small CLI that exercises the main features of [Langfuse](https://langfuse.com), the open source LLM engineering platform (tracing, prompt management, evaluation), using free open models from Groq or OpenRouter.
 
@@ -59,7 +59,7 @@ UI: http://localhost:3000, login `admin@example.com` / `password123`.
 ### 3. Install
 
 ```bash
-git clone <this repo> && cd langfuse-lab
+git clone https://github.com/SankalpSTG/langfuse-guide.git && cd langfuse-guide
 cp .env.example .env        # then fill in LLM_API_KEY (and Langfuse keys if not local)
 uv sync
 uv run lflab doctor         # "Langfuse connection OK"

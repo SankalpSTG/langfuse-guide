@@ -1,5 +1,5 @@
 [project]
-name = "langfuse-lab"
+name = "langfuse-guide"
 version = "0.1.0"
 description = "A tiny CLI that walks through every major Langfuse feature using free open models."
 readme = "README.md"
